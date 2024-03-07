@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 0.5rem;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    background-image: url("./assets/wallpaperMortyRick.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    margin-right: 180vh;
+}
+
+input{
+    height: 4vh;
+    width: 25vh;
+    font-size: 2vh;
+}
+.btn-group{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: ease-in-out 0.2s;
+}
+
+.btn-group:hover{
+    transform: scale(1.1);
+}
+
+img{
+    transition: ease-in-out 0.2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
